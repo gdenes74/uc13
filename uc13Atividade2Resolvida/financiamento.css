@@ -1,0 +1,284 @@
+@import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    background-color: none;
+}
+
+body {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.header {
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ba8de4;
+    color: white;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    flex: 20%;
+    max-width: 20%;
+    display: flex;
+    justify-content: center;
+    left: 0px;
+
+
+}
+
+.titleEmprestimo {
+    flex: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+.navigation {
+    background-color: #ba8de4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 2px;
+    width: 250px;
+    height: 650px;
+
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.nav-list {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.nav-list li {
+    margin: 10px 0;
+    text-align: center;
+    padding: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+li:hover {
+    background-color: #470c7e2e;
+    transition: 0.5s;
+}
+
+li a {
+    width: auto;
+    color: white;
+    padding: 10px;
+
+
+}
+
+.container-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+    background-color: white;
+
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    margin-top: 2px;
+    height: 650px;
+}
+
+.titleFormulario {
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    font-size: 30px;
+    margin-top: 5px;
+    color: #ba8de4;
+
+}
+
+.formularioFinanciamento {
+    border-style: outset;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 600px;
+    width: 800px;
+    max-width: 1000px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.formularioFinanciamento label {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #ba8de4;
+}
+
+.formularioFinanciamento input,
+.formularioFinanciamento select {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    color: #ba8de4;
+    margin-right: auto;
+}
+
+.buttonSimular {
+    background-color: #ba8de4;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 18px;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.buttonSimular:hover {
+    background-color: #470c7e2e;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.titlePerguntas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    font-size: 25px;
+    margin-top: 5px;
+    color: #ba8de4;
+}
+
+.container-two {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    padding: 5px 10px;
+    height: auto;
+    width: 100%;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.question {
+    display: flex;
+    color: #ba8de4;
+    font-size: 20px;
+    padding: 5px;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.rodape {
+    background-color: #ba8de4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.titleRodape {
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.textoNos {
+    color: white;
+    font-size: 13px;
+    width: 800px;
+}
+
+.producao {
+    color: white;
+    font-size: 11px;
+    display: flex;
+
+
+}
+
+.result-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    color: #ba8de4;
+}
+
+.buttonNossoCliente {
+    background-color: #ba8de4;
+    width: 230px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.buttonNossoCliente:hover {
+    background-color: #470c7e2e;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+a {
+    background-color: #ba8de4;
+    width: 230px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+a:hover {
+    background-color: #470c7e2e;
+    font-size: 20px;
+    font-weight: bold;
+}

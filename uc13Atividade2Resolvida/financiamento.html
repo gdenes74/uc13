@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Financeira BoAJuda</title>
+    <link rel="shortcut icon" href="img/flecha.ico" type="image/x-icon">
+    <link rel="stylesheet" href="financiamento.css" />
+  </head>
+  <body>
+    <header class="header">
+      <img
+        src="img/icons8-logo-do-financeira.png" alt="Logo da Financeira"
+        width="80px"
+        height="80px"
+        class="logo"
+      />
+      <h1 class="titleEmprestimo">Financeira BoAjuda - Financiamentos </h1>
+    </header>
+    <div class="container-one">
+      <nav class="navigation">
+        <ul class="nav-list">
+          <li><img src="img/home.png" width="80px" height="80px"></li>
+          <li><a href="index.html">Página Inicial</a></li>
+          <li><a href="emprestimo.html">Empréstimos</a></li>
+          <li><a href="financiamento.html">Financiamentos</a></li>
+          <li><a href="antecipacao.html">Antecipe suas Vendas</a></li>          
+          <li><a href="sejacliente.html">Seja nosso cliente</a></li>
+          <li><a href=".#"><img class="nav-image" src="img/vasoDinheiro.png" width="155px" height="100px"/></a> 
+          </li>
+        </ul>
+      </nav>
+      
+   
+    <div class="containerContato">
+       
+        <div class="content">
+            <form action="#" class="formularioFinanciamento">
+              <p class="titleFormulario">Simulação de Financiamento</p>
+              
+    
+              <label for="tipoFinanciamento">Tipo de Financiamento:</label>
+              <select id="tipoFinanciamento" name="tipoFinanciamento">
+                <option value="Imóvel">Imóvel</option>
+                <option value="Automóvel">Automóvel</option>
+                <option value="Caminhões">Caminhões</option>
+                <option value="Motos">Motos</option>
+              </select>
+    
+              <label for="valorDesejado">Valor Desejado:</label>
+              <input
+                type="number"
+                id="valorDesejado"
+                name="valorDesejado"
+                min="1000"
+                max="100000"
+                step="10000"
+              />
+    
+              <label for="mesesPagamento"
+                >Quantidade de Meses para Pagamento:</label
+              >
+              <input
+                type="number"
+                id="mesesPagamento"
+                name="mesesPagamento"
+                min="6"
+                max="36"
+                step="6"
+              />
+    
+              <button class="buttonSimular" type="submit">Simular</button>
+    
+              <p class="result">
+                <br>
+                <hr>
+                <span class="result-title">Valor das Parcelas:</span>
+                <span class="result-value"></span>
+              </p>
+              <a href="sejacliente.html">Seja nosso Cliente</a>
+            </form>
+          </div>
+        </div>
+       
+       </div>
+       <h1 class="titlePerguntas">Perguntas frequentes</h1>
+       <div class="container-two">
+        <ul class="faq-list">
+          <li class="faq-item">
+            <div class="question">Qual o score ideal para conseguir um bom financiamento?</div>
+            <div class="answer">
+                O score nada mais é do que uma pontuação de crédito que é destinada a todo consumidor. Compras, movimentações bancárias e pendências financeiras no seu nome são alguns dos dados usados para medir. Para quem deseja obter crédito para o financiamento imobiliário, essa pontuação também tem papel importante. Isto porque ela é uma das bases para avaliação de crédito de algumas instituições.
+                A pontuação vai de 0 a 1000 e, segundo o Serasa:                 
+                entre 301 e 500 são considerados regular; 
+                de 501 a 700 bom; 
+                e de 701 a 1000 muito bom. 
+                Ou seja, para que a pontuação seja considerada positiva, ela deve ser acima de 501. Porém, se o seu número está abaixo de 500, você deve melhorar o seu score para conseguir o empréstimo. Você pode consultar a sua pontuação no portal online da Serasa, de forma gratuita.                 
+                Para fazer a busca, basta fazer o seu cadastro com algumas informações pessoais, como nome e CPF. Para melhorar o seu score, o ideal é que você evite atrasar pagamentos. Contas de luz e água e faturas de cartões são exemplos de despesas que contam para a pontuação. Além disso, é essencial não ter pendências no nome.
+            </div>
+          </li>
+          <li class="faq-item">
+            <div class="question">Por que alguns imóveis não podem ser financiados?</div>
+            <div class="answer">
+                Outra das perguntas sobre o financiamento do seu imóvel é sobre aquelas propriedades que não são aprovadas para o crédito. No geral, são as casas e apartamentos com irregularidades fiscais, como não possuir registro, por exemplo. Isso significa que ele não está cadastrado no Cartório de Registro de Imóveis e não possui documentação. Conheça outros casos comuns:
+
+                Terreno: os imóveis construídos em terrenos irregulares também seguem a mesma linha de raciocínio. Nestes casos, eles podem ser cadastrados, mas não correspondem a todos os requisitos da prefeitura. Você pode consultar o Cadastro de Edificações do Município para verificar o estado do terreno, através do histórico de Edificações. 
+                Inventário: casas e apartamentos que foram deixados como herança e não estão regularizados no processo de inventário não podem ser financiados. Antes de realizar a negociação, todas as partes, como a divisão dos bens, devem estar resolvidas.
+                Dívidas: elas também costumam ser o motivo de inviabilização do financiamento. O ideal é que débitos, como taxas e impostos, estejam em dia. Essas informações são públicas e podem ser consultadas na matrícula do imóvel pelo Cartório de Registro.
+                Risco: caso sejam identificados problemas na estrutura do imóvel que ofereçam risco de habitação, como desabamentos ou deslizamentos, ele pode ser desqualificado para o financiamento imobiliário, e até mesmo interditado até as devidas reformas.
+            </div>
+          </li>
+          <li class="faq-item">
+            <div class="question">
+                Valor dos juros é suficiente para escolher o crédito imobiliário?
+            </div>
+            <div class="answer">
+                Perguntas sobre o financiamento do seu imóvel:
+                Está se preparando para usar o crédito imobiliário para comprar uma casa ou apartamento? Saiba a resposta para 10 perguntas sobre o financiamento do seu imóvel!
+                * Qual o score ideal para conseguir um bom financiamento?
+                O score nada mais é do que uma pontuação de crédito que é destinada a todo consumidor. Compras, movimentações bancárias e pendências financeiras no seu nome são alguns dos dados usados para medir. Para quem deseja obter crédito para o financiamento imobiliário, essa pontuação também tem papel importante. Isto porque ela é uma das bases para avaliação de crédito de algumas instituições.
+                A pontuação vai de 0 a 1000 e, segundo o Serasa: <br>
+                entre 301 e 500 são considerados regular; <br>
+                de 501 a 700 bom; <br>
+                e de 701 a 1000 muito bom. <br>
+                Ou seja, para que a pontuação seja considerada positiva, ela deve ser acima de 501. Porém, se o seu número está abaixo de 500, você deve melhorar o seu score para conseguir o empréstimo. Você pode consultar a sua pontuação no portal online da Serasa, de forma gratuita. 
+                
+                Para fazer a busca, basta fazer o seu cadastro com algumas informações pessoais, como nome e CPF. Para melhorar o seu score, o ideal é que você evite atrasar pagamentos. Contas de luz e água e faturas de cartões são exemplos de despesas que contam para a pontuação. Além disso, é essencial não ter pendências no nome.
+                
+                
+                <br><br>
+                * Por que alguns imóveis não podem ser financiados?
+                Outra das perguntas sobre o financiamento do seu imóvel é sobre aquelas propriedades que não são aprovadas para o crédito. No geral, são as casas e apartamentos com irregularidades fiscais, como não possuir registro, por exemplo. Isso significa que ele não está cadastrado no Cartório de Registro de Imóveis e não possui documentação. Conheça outros casos comuns:
+                
+                Terreno: os imóveis construídos em terrenos irregulares também seguem a mesma linha de raciocínio. Nestes casos, eles podem ser cadastrados, mas não correspondem a todos os requisitos da prefeitura. Você pode consultar o Cadastro de Edificações do Município para verificar o estado do terreno, através do histórico de Edificações. 
+                Inventário: casas e apartamentos que foram deixados como herança e não estão regularizados no processo de inventário não podem ser financiados. Antes de realizar a negociação, todas as partes, como a divisão dos bens, devem estar resolvidas.
+                Dívidas: elas também costumam ser o motivo de inviabilização do financiamento. O ideal é que débitos, como taxas e impostos, estejam em dia. Essas informações são públicas e podem ser consultadas na matrícula do imóvel pelo Cartório de Registro.
+                Risco: caso sejam identificados problemas na estrutura do imóvel que ofereçam risco de habitação, como desabamentos ou deslizamentos, ele pode ser desqualificado para o financiamento imobiliário, e até mesmo interditado até as devidas reformas.
+                
+                
+                               
+                <br><br>
+                *Quais as apólices obrigatórias no financiamento do seu imóvel?
+                Entre as tarifas calculadas no parcelamento do financiamento imobiliário estão as apólices obrigatórias. Elas nada mais são do que seguros que devem ser incluídos no crédito bancário, de acordo com a Lei nº 9.514/97. Eles servem para que o comprador e o vendedor tenham mais segurança durante o período de quitação. Os seguros correspondem a até 3% do total das parcelas. <br>São dois:
+                  
+                
+                DFI
+                O seguro de Danos Físicos ao Imóvel cobre eventuais danos à estrutura do imóvel. Situações como enchentes, incêndios ou explosões são alguns exemplos do que estão previstas pelo DFI. O valor de cobertura deste seguro é proporcional ao valor total detalhado no Laudo de Avaliação. Esse documento é elaborado após uma avaliação do imóvel, que é requerida pela instituição financeira.
+                <br><br>
+                
+                
+                
+                MIP
+                A segunda apólice obrigatória incluída no financiamento imobiliário é por Morte ou Invalidez Permanente. Caso aconteça algo com o beneficiado, ela assegura que o saldo devedor restante do imóvel seja quitado.
+                <br><br><br>
+                
+                
+                Como funciona?
+                As apólices são obrigatórias e afirmadas por lei. No geral, os bancos oferecem os próprios seguros. Porém, dependendo das cláusulas do contrato, você pode escolher qual será a seguradora. Vale ressaltar que apenas o DIF e o MIP não podem ser removidos das parcelas. Assim, fique atento à cobrança de seguros indesejados ou não comunicados na transação.
+                
+                
+                <br><br>
+                * Valor dos juros é suficiente para escolher o crédito imobiliário?
+                É comum que as pessoas foquem nas taxas de juros para decidir qual será o banco para o empréstimo imobiliário. Por isso, esta é uma das perguntas sobre o financiamento do seu imóvel mais comuns.
+                
+                No fim, as taxas não são suficientes para a comparação entre diferentes bancos. Isto porque as parcelas são compostas por diferentes elementos, como a amortização e as outras taxas, que podem fazer a diferença na conta. Sem falar em outras vantagens no seu relacionamento com o banco. Entenda que outros critérios devem ser levados consideração: 
+                Custos
+                A principal forma de analisar e comparar as condições de financiamento oferecidas pelas instituições financeiras é o Custo Efetivo Total (CET). Basicamente, é um jeito de considerar os diferentes fatores de custo envolvidos no empréstimo.
+                
+                Na sua definição, é um valor anual, expresso como uma porcentagem da sua dívida, que representa a soma dos custos cobrados na contratação de um empréstimo ou financiamento. Ele deve ser informado pelas instituições financeiras nas operações de empréstimos e financiamentos.
+                 Cálculo
+                O CET é calculado considerando os fluxos referentes às liberações e aos pagamentos previstos: juros, tarifas da instituição, tributos, seguros, pagamento do agente de crédito e despesas com cartórios e documentação. Não é da sua responsabilidade saber executar este cálculo. Entretanto, é sempre bom ter uma ideia de onde e de que forma os números presentes no financiamento surgiram. 
+                Lembre-se que o CET deve ser calculado a qualquer tempo pelas instituições financeiras, e quando houver previsão de mais de uma data de liberação de recursos, deve ser calculado o de cada uma delas. Atualmente, existe uma grande variedade de opções de crédito no mercado. Assim, a melhor forma de fazer a escolha da instituição financeira é pesquisando. Você também pode usar ferramentas de simulação gratuitas.
+            </div>
+          </li>
+          <li class="faq-item">
+            <div class="question">
+                Qual o melhor tipo de crédito imobiliário?
+            </div>
+            <div class="answer">
+                No geral, são três os tipos de financiamento do seu imóvel:
+
+
+
+                SFH
+                O Sistema Financeiro de Habitação (SFH) tem como objetivo facilitar e promover a construção e a aquisição da casa própria ou moradia. É comum a utilização do FGTS dentro desta modalidade. O SFH abrange os seguintes pontos: 
+                compra de imóveis novos, usados ou em construção; 
+                aquisição de terreno para construção de moradia; 
+                reforma ou ampliação da casa ou apartamento; 
+                material para a construção, ampliação ou reforma da propriedade.
+                O limite do valor de avaliação do imóvel financiado deve ser de R$1.500.000. Além disso, o custo efetivo máximo deve ser de 12% ao ano e a atualização do saldo devedor, é feita pela remuneração básica aplicável aos depósitos de poupança.
+                
+                SFI
+                As normas que tratam deste sistema estão contidas na Lei nº 9.514, de 1997. O Sistema de Financiamento Imobiliário (SFI) tem como objetivo promover o financiamento imobiliário em geral. Basicamente, engloba tudo que não faz parte do SFH. Este tipo de financiamento atrai mais investidores, pessoas jurídicas e quem está interessado em imóveis do mercado com propriedades mais valorizadas. 
+                A forma de escolha é simples. Se as suas condições não se encaixam no SFH, você terá que financiar pelo SFI. As regras que fazem parte do primeiro tipo são as que acabam fazendo esta definição por si só. O mais comum é que sejam imóveis que valem mais de R$ 1,5 milhão.
+                CVA
+                Diferente do MCMV, que tinha uma taxa única de juros para todo o país, com o Casa Verde e Amarela elas são variadas. Os critérios são faixa de renda e localidade do imóvel. O prazo de quitação, ou seja, pagamento do financiamento, pode chegar a até 30 anos. As condições podem variar de acordo com a renda apresentada, a região do imóvel e a análise que o banco faz. As faixas de renda vão até os R$ 11 mil.
+            </div>
+          </li>
+          <li class="faq-item">
+            <div class="question">
+                Quais documentos são necessários, para aquisição de um financiamento para caminhões,automóveis e motos?
+            </div>
+            <div class="answer">
+                O cliente terá de provar sua identidade e apresentar comprovantes de residência e de renda. Isso pode ser feito tanto com os holerites de funcionários registrados como com históricos bancários de trabalhadores informais. Clique aqui e confira os documentos aceitos pelos bancos e instituições financeiras.
+            </div>
+          </li>
+          <li class="faq-item">
+            <div class="question">
+                Alguns carros são mais fáceis de financiar que outros?
+            </div>
+            <div class="answer">
+                Segundo Noman, os financiamentos não são aprovados com base no produto, mas sim no score do CPF.
+                "A mesma entrada pode ser utilizada para comprar um hatch de entrada ou um sedã médio, mas o que vai determinar o valor total do financiamento é o score do cliente, baseado no risco da operação", conclui.
+            </div>
+          </li>
+        </ul>
+      </div>
+
+    <footer class="rodape">
+      <h2 class="titleRodape">Sobre Nós</h2>
+      <p class="textoNos">
+        A Financeira <strong>BoAjuda</strong> é uma empresa de serviços financeiros,atua no
+        mercado de empréstimos(pessoal e consignado), financiamentos de Veículos de grande e pequeno porte, Imóveis Residenciais e Empresariais. Venha fazer parte desse time, e conheça a rede de franquias, que está pronta para ser seu novo parceiro!
+      </p>
+      <h2 class="titleRodape">Rede Sociais</h2>
+      <div class="social-icons">
+        <a href="#">
+          <img
+            src="img/icons8-email-48.png"
+            alt="E-mail"
+            height="30px"
+            width="30px"
+          />
+        </a>
+        <a href="#">
+          <img
+            src="img/icons8-instagram-48.png"
+            alt="Instagram"
+            height="30px"
+            width="30px"
+          />
+        </a>
+        <a href="#">
+          <img
+            src="img/icons8-linkedin-48.png"
+            alt="Linkedin"
+            height="30px"
+            width="30px"
+          />
+        </a>
+        <a href="#">
+            <img src="img/icons8-whatsapp-48.png"
+              alt="WhatsApp"
+              height="30px"
+              width="30px"
+            />
+          </a>
+      </div>
+      <div class="producao">
+        <h4>
+          Todos os direitos reservados © Desenvolvido por: Guilherme Denes
+        </h4>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Financeira BoAJuda</title>
+    <link rel="shortcut icon" href="img/flecha.ico" type="image/x-icon">
+    <link rel="stylesheet" href="emprestimo.css" />
+  </head>
+  <body>
+    <header class="header">
+      <img
+        src="img/icons8-logo-do-financeira.png" alt="Logo da Financeira"
+        width="80px"
+        height="80px"
+        class="logo"
+      />
+      <h1 class="titleEmprestimo">Financeira BoAjuda - Empréstimos </h1>
+    </header>
+    <div class="container-one">
+      <nav class="navigation">
+        <ul class="nav-list">
+          <li><img src="img/home.png" width="80px" height="80px"></li>
+          <li><a href="index.html">Página Inicial</a></li>
+          <li><a href="emprestimo.html">Empréstimos</a></li>
+          <li><a href="financiamento.html">Financiamentos</a></li>
+          <li><a href="antecipacao.html">Antecipe suas Vendas</a></li>          
+          <li><a href="sejacliente.html">Seja nosso cliente</a></li>
+          <li><a href=".#"><img class="nav-image" src="img/vasoDinheiro.png" width="155px" height="100px"/></a> 
+          </li>
+        </ul>
+      </nav>
+      
+   
+    <div class="containerContato">
+       
+        <div class="content">
+            <form action="#" class="formularioEmprestimo">
+              <p class="titleFormulario">Simulação de Empréstimo</p>
+    
+              <label for="tipoEmprestimo">Tipo de Empréstimo:</label>
+              <select id="tipoEmprestimo" name="tipoEmprestimo">
+                <option value="pessoal">Empréstimo Pessoal</option>
+                <option value="consignado">Empréstimo Consignado</option>
+              </select>
+    
+              <label for="valorDesejado">Valor Desejado:</label>
+              <input
+                type="number"
+                id="valorDesejado"
+                name="valorDesejado"
+                min="1000"
+                max="10000"
+                step="1000"
+              />
+    
+              <label for="mesesPagamento"
+                >Quantidade de Meses para Pagamento:</label
+              >
+              <input
+                type="number"
+                id="mesesPagamento"
+                name="mesesPagamento"
+                min="6"
+                max="36"
+                step="6"
+              />
+    
+              <button class="buttonSimular" type="submit">Simular</button>
+    
+              <p class="result">
+                <br>
+                <hr>
+                <span class="result-title">Valor das Parcelas:</span>
+                <span class="result-value"></span>
+              </p>
+              
+              <a href="sejacliente.html">Seja nosso Cliente</a>
+            </form>
+          </div>
+        </div>
+       
+       </div>
+       <h1 class="titlePerguntas">Perguntas frequentes</h1>
+       <div class="container-two">
+        <ul class="faq-list">
+          <li class="faq-item">
+            <div class="question">O que é empréstimo consignado?</div>
+            <div class="answer">
+              Diferente do empréstimo comum, o consignado debita o valor da
+              parcela direto do benefício ou salário, ou seja, o banco tem
+              garantia do pagamento do crédito. E é por oferecer pouco risco ao
+              banco, que esta linha costuma ter taxas de juros bem menores.
+            </div>
+          </li>
+          <li class="faq-item">
+            <div class="question">Posso fazer o empréstimo consignado?</div>
+            <div class="answer">
+              Esta modalidade é destinada apenas aos trabalhadores com carteira
+              assinada, <br />
+              funcionários públicos, aposentados e pensionistas do INSS.
+              Ressaltando que, para funcionários públicos, aposentados e
+              pensionistas do INSS, a taxa costuma ser menor por causa da
+              estabilidade financeira deste público.
+            </div>
+          </li>
+          <li class="faq-item">
+            <div class="question">
+              É necessário ser correntista do banco que vou realizar o empréstimo?
+            </div>
+            <div class="answer">
+              Não. O usuário não precisa ter este tipo de vínculo com o banco a
+              ser contratado.
+            </div>
+          </li>
+          <li class="faq-item">
+            <div class="question">
+              Para liberar o valor, o banco realizará a análise de crédito?
+            </div>
+            <div class="answer">
+              Sim. Ainda que haja a garantia do débito da parcela na conta, o
+              banco realiza a análise para verificar seu histórico e decidir se
+              liberará ou não o valor.
+            </div>
+          </li>
+          <li class="faq-item">
+            <div class="question">
+              Qual é o limite de crédito de um consignado?
+            </div>
+            <div class="answer">
+              De acordo com o Banco Central, existe uma margem consignável que
+              compromete até 30% do valor total do salário ou benefício. Assim, se
+              a pessoa recebe R$ 2.000,00 mês, o valor máximo da parcela será de
+              R$600, 00 por mês.
+            </div>
+          </li>
+          <li class="faq-item">
+            <div class="question">
+              Posso fazer mais de um empréstimo ao mesmo tempo?
+            </div>
+            <div class="answer">
+              Essa dúvida é bastante comum. É possível desde que o valor da
+              parcela não ultrapasse a margem consignável de 30% do valor do
+              benefício.
+            </div>
+          </li>
+        </ul>
+      </div>
+
+    <footer class="rodape">
+      <h2 class="titleRodape">Sobre Nós</h2>
+      <p class="textoNos">
+        A Financeira <strong>BoaJuda</strong> é uma empresa de serviços financeiros,atua no
+        mercado de empréstimos(pessoal e consignado), financiamentos de Veículos de grande e pequeno porte, Imóveis Residenciais e Empresariais. Venha fazer parte desse time, e conheça a rede de franquias, que está pronta para ser seu novo parceiro!
+      </p>
+      <h2 class="titleRodape">Rede Sociais</h2>
+      <div class="social-icons">
+        <a href="#">
+          <img
+            src="img/icons8-email-48.png"
+            alt="E-mail"
+            height="30px"
+            width="30px"
+          />
+        </a>
+        <a href="#">
+          <img
+            src="img/icons8-instagram-48.png"
+            alt="Instagram"
+            height="30px"
+            width="30px"
+          />
+        </a>
+        <a href="#">
+          <img
+            src="img/icons8-linkedin-48.png"
+            alt="Linkedin"
+            height="30px"
+            width="30px"
+          />
+        </a>
+        <a href="#">
+            <img src="img/icons8-whatsapp-48.png"
+              alt="WhatsApp"
+              height="30px"
+              width="30px"
+            />
+          </a>
+      </div>
+      <div class="producao">
+        <h4>
+          Todos os direitos reservados © Desenvolvido por: Guilherme Denes
+        </h4>
+      </div>
+    </footer>
+  </body>
+</html>

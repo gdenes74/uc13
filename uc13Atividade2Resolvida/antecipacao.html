@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Financeira BoAJuda</title>
+    <link rel="shortcut icon" href="img/flecha.ico" type="image/x-icon">
+    <link rel="stylesheet" href="antecipacao.css" />
+  </head>
+  <body>
+    <header class="header">
+      <img
+        src="img/icons8-logo-do-financeira.png" alt="Logo da Financeira"
+        width="80px"
+        height="80px"
+        class="logo"
+      />
+      <h1 class="titleEmprestimo">Financeira BoAjuda - Antecipe suas Vendas </h1>
+    </header>
+    <div class="container-one">
+      <nav class="navigation">
+        <ul class="nav-list">
+          <li><img src="img/home.png" width="80px" height="80px"></li>
+          <li><a href="index.html">Página Inicial</a></li>
+          <li><a href="emprestimo.html">Empréstimos</a></li>
+          <li><a href="financiamento.html">Financiamentos</a></li>
+          <li><a href="antecipacao.html">Antecipe suas Vendas</a></li>          
+          <li><a href="sejacliente.html">Seja nosso cliente</a></li>
+          <li><a href=".#"><img class="nav-image" src="img/vasoDinheiro.png" width="155px" height="100px"/></a> 
+          </li>
+        </ul>
+      </nav>
+      
+   
+    <div class="containerContato">
+       
+        <div class="content">
+            <form action="#" class="formularioFinanciamento">
+              <p class="titleFormulario">Simulação de Antecipação </p>
+              
+    
+              <label for="tipoFinanciamento">Tipo de Antecipação:</label>
+              <select id="tipoFinanciamento" name="tipoFinanciamento">
+                <option value="Vendas">Recebíveis</option>
+                <option value="Fgts">FGTS</option>
+                <option value="IRPF">IRPF</option>
+                
+              </select>
+    
+              <label for="valorDesejado">Valor Desejado:</label>
+              <input
+                type="number"
+                id="valorDesejado"
+                name="valorDesejado"
+                min="1000"
+                max="100000"
+                step="10000"
+              />
+    
+              <label for="mesesPagamento"
+                >Quantidade de Meses para Atecipação:</label
+              >
+              <input
+                type="number"
+                id="mesesPagamento"
+                name="mesesPagamento"
+                min="6"
+                max="36"
+                step="6"
+              />
+    
+              <button class="buttonSimular" type="submit">Simular</button>
+    
+              <p class="result">
+                <br>
+                <hr>
+                <span class="result-title">Valor das Parcelas:</span>
+                <span class="result-value"></span>
+              </p>
+              <a href="sejacliente.html">Seja nosso Cliente</a>
+            </form>
+          </div>
+        </div>
+       
+       </div>
+       <h1 class="titlePerguntas">Perguntas frequentes</h1>
+       <div class="container-two">
+        <ul class="faq-list">
+          <li class="faq-item">
+            <div class="question">O que é a Antecipação Saque Aniversário FGTS?</div>
+            <div class="answer">
+            É um empréstimo que permite a antecipação do valor de até 5 (cinco) parcelas de Saque Aniversário
+            do FGTS às quais o cliente tem direito de sacar anualmente no mês do seu aniversário.
+            Para ter direito ao Saque Aniversário, é necessário que o trabalhador faça
+            a opção pela modalidade Saque Aniversário através do App FGTS, no site fgts.caixa.gov.br, Internet Banking CAIXA ou App CAIXA.
+            </div>
+          </li>
+          <li class="faq-item">
+            <div class="question">Quem pode contratar a Antecipação do Saque Aniversário?</div>
+            <div class="answer">
+                Todo cliente com conta vinculada de FGTS, ativa ou inativa,
+            que tenha aderido à modalidade Saque Aniversário através de um dos canais
+            disponibilizados pela CAIXA, possua conta corrente na CAIXA e não possua empréstimo em atraso com a CAIXA.
+            </div>
+          </li>
+          <li class="faq-item">
+            <div class="question">Como optar pela Modalidade de Saque Aniversário FGTS?</div>
+            <div class="answer">
+                O cliente poderá optar pelo Saque Aniversário, pelos seguintes canais:
+
+            Site do FGTS na CAIXA, fgts.caixa.gov.br; ou
+            Aplicativo do FGTS, que você pode baixar na loja de aplicativos do seu celular); ou
+            No Internet Banking CAIXA.
+            </div>
+          </li>
+          <li class="faq-item">
+            <div class="question">
+                O valor do empréstimo Antecipação Saque Aniversário pode ser depositado na conta Poupança Social Digital da CAIXA?
+            </div>
+            <div class="answer">
+                Não. Para receber o crédito da Antecipação Saque Aniversário, necessário ter uma conta corrente (001).
+  
+            </div>
+          </li>
+          <li class="faq-item">
+            <div class="question">
+                O que é e como funciona a antecipação de uma venda?
+            </div>
+            <div class="answer">
+                A antecipação de vendas, também chamada de antecipação de recebíveis, é um recurso que financeira BoAjuda oferece para que os vendedores possam receber antes do prazo os valores de uma venda parcelada ou feita no crédito à vista.
+
+                O serviço deve ser contratado através da central de atendimento da financeira BoAjuda e está sujeito à análise de crédito, que é feita diariamente. Além disso, os prazos são definidos de acordo com o plano de recebimento selecionado antes da venda.
+
+                Caso você está apto para usar o recurso, pode solicitar a antecipação através do super app, site ou maquininha. Se feita antes das 14hs, fica disponível em sua conta financeira BoAjuda no período de uma hora.
+            </div>
+          </li>
+          <li class="faq-item">
+            <div class="question">
+                Como antecipar o valor de uma venda parcelada?            </div>
+            <div class="answer">
+                Via site: 
+
+                Faça login em sua conta através do site;
+                Clique em Vendas, no menu lateral esquerdo, e depois em Antecipação de recebíveis;
+                Escolha entre as opções de antecipar o valor total disponível ou selecionar dias. No caso da segunda opção, escolha a quantidade de dias pelos quais deseja receber. Clique em Continuar;
+                Verifique as informações exibidas, como valor, a conta na qual ele será creditado e a taxa correspondente à antecipação. Se estiverem corretas, prossiga com o processo.
+            </div>
+          </li>
+        </ul>
+      </div>
+
+    <footer class="rodape">
+      <h2 class="titleRodape">Sobre Nós</h2>
+      <p class="textoNos">
+        A Financeira <strong>BoAjuda</strong> é uma empresa de serviços financeiros,atua no
+        mercado de empréstimos(pessoal e consignado), financiamentos de Veículos de grande e pequeno porte, Imóveis Residenciais e Empresariais. Venha fazer parte desse time, e conheça a rede de franquias, que está pronta para ser seu novo parceiro!
+      </p>
+      <h2 class="titleRodape">Rede Sociais</h2>
+      <div class="social-icons">
+        <a href="#">
+          <img
+            src="img/icons8-email-48.png"
+            alt="E-mail"
+            height="30px"
+            width="30px"
+          />
+        </a>
+        <a href="#">
+          <img
+            src="img/icons8-instagram-48.png"
+            alt="Instagram"
+            height="30px"
+            width="30px"
+          />
+        </a>
+        <a href="#">
+          <img
+            src="img/icons8-linkedin-48.png"
+            alt="Linkedin"
+            height="30px"
+            width="30px"
+          />
+        </a>
+        <a href="#">
+            <img src="img/icons8-whatsapp-48.png"
+              alt="WhatsApp"
+              height="30px"
+              width="30px"
+            />
+          </a>
+      </div>
+      <div class="producao">
+        <h4>
+          Todos os direitos reservados © Desenvolvido por: Guilherme Denes
+        </h4>
+      </div>
+    </footer>
+  </body>
+</html>

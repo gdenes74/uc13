@@ -1,0 +1,304 @@
+@import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  background-color: none;
+}
+
+body {
+  font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.header {
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ba8de4;
+  color: white;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  flex: 20%;
+  max-width: 20%;
+  display: flex;
+  justify-content: center;
+  left: 5px;
+
+
+}
+
+.titleEmprestimo {
+  flex: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+
+.container-one {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 3px;
+  background-color: white;
+
+}
+
+.navigation {
+  background-color: #ba8de4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin-top: 2px;
+  width: 255px;
+  height: 670px;
+
+}
+
+a {
+  text-decoration: none;
+
+}
+
+.nav-list {
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.nav-list li {
+  margin: 10px 0;
+  text-align: center;
+  padding: 20px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+li:hover {
+  background-color: #470c7e2e;
+  transition: 0.5s;
+}
+
+li a {
+  width: auto;
+  color: white;
+  padding: 10px;
+
+
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10px 10px 10px;
+
+  height: 200px;
+  width: 100%;
+  margin-top: 1px;
+
+
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 100%;
+  margin-top: 2px;
+}
+
+
+.card-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card-content div img {
+  border-radius: 6px;
+
+}
+
+.banner-1 {
+  display: flex;
+  justify-content: column;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px 10px 10px 10px;
+  cursor: pointer;
+  transition: 1s;
+
+}
+
+.banner-1:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+.banner-2 {
+  display: flex;
+  justify-content: column;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px 10px 10px 10px;
+  cursor: pointer;
+  transition: 1s;
+
+}
+
+.banner-2:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+
+.banner-3 {
+  display: flex;
+  justify-content: column;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px 10px 10px 10px;
+  cursor: pointer;
+  transition: 1s;
+
+}
+
+.banner-3:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+
+hr {
+  width: 100%;
+  height: 1px;
+  background-color: #470c7e2e;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+
+.button {
+  width: 150px;
+  height: 50px;
+  background-color: #ba8de4;
+  color: #fff;
+  padding: 8px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.8s;
+  font-size: 18px;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  margin-top: 25px;
+
+}
+
+.button:hover {
+  background-color: #470c7e2e;
+  font-size: 20px;
+  transition: 0.8s;
+}
+
+.containerContato {
+
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+
+}
+
+.border-bottom-input {
+  width: 300px;
+  border: none;
+  border-bottom: 1px solid #000;
+  outline: none;
+}
+
+.titleContato {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ba8de4;
+  width: 100%;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+
+
+}
+
+.button-contato {
+  margin-left: 10px;
+  width: 150px;
+  height: 40px;
+  background-color: #ba8de4;
+  color: #fff;
+  padding: 8px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.8s;
+  font-size: 18px;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  margin-top: 0px;
+
+}
+
+.button-contato:hover {
+  background-color:#470c7e2e;
+  font-size: 19px;
+  transition: 0.8s;
+}
+
+
+.rodape {
+  background-color:#ba8de4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.titleRodape {
+  color: white;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.textoNos {
+  color: white;
+  font-size: 13px;
+  width: 800px;
+}
+
+.producao {
+  color: white;
+  font-size: 11px;
+  display: flex;
+
+
+}
