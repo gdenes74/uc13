@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="image/flecha.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" />
+    <title>Pagamentos</title>
+  </head>
+  <body>
+    <header>
+      <h2>||||||Área de Pagamentos|||||||</h2>
+    </header>
+    <div class= "container">
+      <div class= "content-one">
+        <form action="index.html" class ="form-one">
+          <div class="group1">
+            <label for="txtValor">Valor:</label>
+            <input type="text" name="number" id="txtValor" placeholder="Digite o valor" />
+          </div>
+          <div class="radioopcao">
+            <input type="radio" name="formaPagamento" id="pixSim" value="pix"/>
+            <label for="pixSim">PIX </label>
+
+            <input type="radio" name="formaPagamento" id="txtCreditoSim" value="credito"/>
+            <label for="txtCreditoSim">Cartão de Crédito</label>
+          </div>
+           
+            <button class="buttonDados" id="buttonDados">Infomar Dados</button>
+            <div class="pagamentoPix">
+              <H3>PIX</H3>
+              <label for="txtCpf">CPF:</label>
+              <input type="text" name="number" id="txtCpf" placeholder="Digite o Cpf"/>
+            </div>
+            
+            <div class="pagamentoCredito">
+
+              <h3>CARTÃO DE CRÉDITO</h3>
+              <div class="groupcredito1">
+                <div class="credito1">
+                  <label for="txtNumeroCard">Número:</label>
+                  <input type="text" name="number" id="txtNumeroCard" placeholder="Número do Cartão"/>
+                  <div class="cardBandeira">
+                    <div class="cartaoVisa">
+                      <img id="cVisa" src="image/visa-logo.png" width="40px" height="25px"/>
+                    </div>
+                    <div class="cartaoMaster">
+                      <img id="cMaster" src="image/mastercard-logo.png" width="55px" height="45px"/>
+                    </div>
+                    <div class="cartaoInvalido">
+                      <img id="cartaoInvalido" src="image/botaoinvalido.png" width="30px" height="20px"/>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="titular">
+                  <label for="txtNameTitular">Titular:</label>
+                  <input type="text" name="text" id="txtNameTitular" placeholder="Idêntico ao descrito Cartão"/>
+                </div>
+                <div class="codCVCvc">
+                  <label for="txtCvcCod">Cód. de Segurança</label>
+                  <input type="text" name="text" id="txtCvcCod" placeholder="CVC">
+                </div>
+                <div class="venc">
+                  <label for="txtVencimento">Vencimento</label>   
+                  <input type="text" name="text" id="txtVencimento" placeholder="MM/AA"/>                   
+                 </div>
+                 <div class="parcelas">
+                  <label for="txtNumeroParcela">Parcelas</label>
+                  <select name="quantParcelas" id="txtNumeroParcela">
+                    <option value="0">Selecione</option>
+                    <option value="1">1x</option>
+                    <option value="2">2x</option>
+                    <option value="3">3x</option>
+                    <option value="4">4x</option>
+                    <option value="5">5x</option>
+                  </select>
+                 </div>
+              </div>
+              <div class="vlrParcelado">
+                <div>
+                  <label for="text">1x R$</label>
+                  <label id="vlrParcelado1">0,00</label>
+                </div>
+                <div>
+                  <label for="text">2x R$</label>
+                  <label id="vlrParcelado2">0,00</label>
+                </div>
+                <div>
+                  <label for="text">3x R$</label>
+                  <label id="vlrParcelado3">0,00</label>
+                </div>
+                <div>
+                  <label for="text">4x R$</label>
+                  <label id="vlrParcelado4">0,00</label>
+                </div>
+                <div>
+                  <label for="text">5x R$</label>
+                  <label id="vlrParcelado5">0,00</label>
+                </div>
+              </div>
+            </div>
+            <div class="vlrTotal">
+              <label for="text">Total: R$ </label>
+              <label id="vlrTotal">0,00</label>
+            </div>
+            <button class="buttonPagar" id="pagar">Pagar</button>
+         </form>
+      </div>
+    </div>
+    
+    <script src="script.js"></script>
+  </body>
+</html>

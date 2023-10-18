@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    background-color: none;
+}
+
+body {
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: #ddcce9;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: auto;
+    margin: 10px;
+
+}
+
+.content-one {
+    display: flex;
+    width: 450px;
+    justify-content: center;
+}
+
+.form-one {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    background-color: #ddcce9;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    align-items: center;
+}
+
+
+.group1 {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.group1 label {
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.group1 input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+
+.radioopcao {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: auto;
+}
+
+.radioopcao label {
+    margin: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.radioopcao input {
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+
+.buttonDados {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 150px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.pagamentoPix {
+    border: 3px solid white;
+    margin: 15px;
+    width: 450px;
+    height: 80px;
+    padding: 10px;
+    display: none;
+
+}
+
+.pagamentoPix label {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.pagamentoPix input {
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.pagamentoCredito {
+    border: 3px solid white;
+    margin: 15px;
+    width: 450px;
+    height: auto;
+    padding: 10px;
+    display: none;
+
+}
+
+.groupcredito1 {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.groupcredito1 label {
+    margin: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.groupcredito1 input {
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 5px;
+}
+
+
+.credito1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.cardBandeira {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+
+}
+
+.cartaoVisa {
+    display: flex;
+    display: none;
+}
+
+.cartaoMaster {
+    display: flex;
+    display: none;
+}
+
+.cartaoInvalido {
+    display: flex;
+    display: none;
+}
+
+.titular {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+
+.groupcredito1 select {
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 5px;
+    width: 105px;
+}
+
+.codCVC input {
+    width: 80px;
+
+}
+
+.venc input {
+    width: 100px;
+}
+
+.titular input {
+    width: 300px;
+}
+
+.vlrParcelado {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+
+
+}
+
+.vlrTotal {
+    display: flex;
+    flex-direction: row;  
+    justify-content: flex-end; 
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+.vlrTotal label { 
+    
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    padding: 2px;
+    
+}
+
+
+
+.buttonPagar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 150px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.vlrParcelado {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* 3 colunas na primeira linha */
+    gap: 5px;
+    /* Ajuste o espaçamento entre as divs conforme necessário */
+    width: 100px;
+    margin: 5px;
+    padding: 5px;
+}
+
+/* Estilo para as duas divs na segunda linha */
+.vlrParcelado div:nth-child(n+5) {
+    grid-column: span 2;
+    /* 2 colunas para as divs na segunda linha */
+}
+
+.vlrParcelado div {
+    font-size: 12px;
+    flex-direction: row;
+    width: 110px;
+}
