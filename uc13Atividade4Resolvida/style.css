@@ -1,0 +1,446 @@
+* {
+    font-family: 'Kdam Thmor Pro' sans-serif;
+  }
+  
+  header {
+    width: 100%;
+    font-family: "Kdam Thmor Pro";
+  
+  }
+  
+  nav {
+    height: 100%;
+  
+  }
+  
+  #banner-principal {
+    display: flex;
+    justify-content: center;
+  
+  }
+  
+  .imageFachada {
+    width: 600px;
+    height: 400px;
+  
+  }
+  
+  #saibamais {
+    width: 370px;
+  
+  }
+  
+  .title-hospedar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 700;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Kdam Thmor Pro';
+  }
+  
+  #quartos-title {
+    font-family: 'Kdam Thmor Pro';
+    font-size: 25px;
+    font-weight: 700;
+  
+  }
+  
+  .card img {
+    width: 300px;
+    height: 260px;
+  }
+  
+  #container-quarternario {
+    margin-top: 20px;
+    height: auto;
+  
+  }
+  
+  #card-reserva {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 350px;
+    height: 180px;
+  
+  }
+  
+  #container-form {
+    margin: 15px;
+    padding: 20px;
+  
+  }
+  
+  #group1 input {
+    width: 350px;
+  
+  }
+  
+  #group2 input {
+    width: 350px;
+  
+  }
+  
+  #inputObservacao {
+    width: 350px;
+  
+  }
+  
+  #adultos,
+  #criancas {
+    width: 100px;
+  
+  }
+  
+  #inputAdultos {
+    width: 80px;
+  
+  }
+  
+  #inputCriancas {
+    width: 80px;
+  
+  }
+  
+  #bntEnviar {
+    width: 300px;
+  
+  
+  }
+  
+  .mb-5 {
+  
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+  
+  }
+  
+  #footer-produzido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 120px;
+    font-family: 'kdam thmor pro';
+    color: white;
+    font-size: 10px;
+  
+  }
+  
+  .content-footer {
+    margin: 10px;
+    height: 20px;
+  
+  }
+  
+  .icons-redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 50%;
+    height: 35px;
+    border-radius: 15px;
+  
+  }
+  
+  .icons-redes img {
+    margin: 5px 5px 5px 5px;
+  
+  }
+  
+  
+  
+  
+  
+  
+  @media screen and (max-width: 400px) {
+    #content-principal {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  
+    }
+  
+    .content {
+      display: flex;
+      justify-content: center;
+  
+  
+    }
+  
+    .content-card {
+      display: flex;
+      justify-content: center;
+      border: 20px solid black;
+  
+    }
+  
+    .imageFachada {
+      width: 100%;
+      height: 250px;
+  
+    }
+  
+    #saibamais {
+      width: 100%;
+  
+    }
+  
+    #container-quarternario {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  
+    }
+  
+    #group1 input {
+      width: 300px;
+  
+    }
+  
+    #group2 input {
+      width: 300px;
+  
+    }
+  
+    #inputObservacao {
+      width: 300px;
+  
+    }
+  
+  
+    #adultos,
+    #criancas {
+      display: flex;
+      justify-content: center;
+      width: 70px;
+      margin: 4px;
+      
+  
+    }
+  
+    #inputAdultos {
+      width: 70px;
+  
+    }
+  
+    #inputCriancas {
+      width: 70px;
+  
+    }
+  
+    #bntEnviar {
+      width: 250px;
+  
+  
+    }
+  }
+  
+  
+  @media (min-width: 401px) and (max-width: 570px) {
+    #content-principal {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  
+    }
+  
+    .content {
+      display: flex;
+      justify-content: center;
+  
+    }
+  
+    .content-card {
+      display: flex;
+      justify-content: center;
+  
+    }
+  
+    .imageFachada {
+      width: 100%;
+      height: 250px;
+  
+    }
+  
+    #saibamais {
+      width: 100%;
+  
+    }
+  
+  
+    #container-quarternario {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  
+    }
+    #group1 input {
+      width: 300px;
+    
+    }
+    
+    #group2 input {
+      width: 300px;
+    
+    }
+    
+    #inputObservacao {
+      width: 300px;
+    
+    }
+      
+    #adultos,
+    #criancas {
+      display: flex;
+      justify-content: center;
+      width: 70px;
+      margin: 4px;
+      ;
+    
+    
+    }
+    
+    #inputAdultos {
+      width: 70px;
+    
+    }
+    
+    #inputCriancas {
+      width: 70px;
+    
+    }
+    
+    #bntEnviar {
+      width: 250px;
+    
+    
+    }
+  }
+  
+  
+  
+  
+  
+  @media (min-width: 571px) and (max-width: 768px) {
+    #content-principal {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  
+    }
+  
+    .content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+    }
+  
+    .content-card {
+      display: flex;
+      justify-content: center;
+  
+    }
+  
+    .imageFachada {
+      width: 100%;
+      height: 300px;
+  
+    }
+  
+    #saibamais {
+      width: 100%;
+  
+  
+    }
+  
+    #card-quartos {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  
+    }
+  
+    #container-quarternario {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  
+    }
+  
+    #adultos,
+    #criancas {
+      display: flex;
+      justify-content: center;
+      width: 80px;
+      margin: 8px;
+  
+    }
+  
+    #inputAdultos {
+      width: 70px;
+  
+    }
+  
+    #inputCriancas {
+      width: 80px;
+  
+    }
+  
+    #bntEnviar {
+      width: 250px;
+  
+  
+    }
+  
+  }
+  
+  
+  @media (min-width: 769px) and (max-width: 992px) {
+    #content-principal {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  
+    }
+  
+    .content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+    }
+  
+    .content-card {
+      display: flex;
+      justify-content: center;
+  
+    }
+  
+    .imageFachada {
+      width: 100%;
+      height: 300px;
+  
+    }
+  
+    #saibamais {
+      width: 100%;
+  
+    }
+  
+    #card-quartos {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  
+    }
+  
+  
+  }

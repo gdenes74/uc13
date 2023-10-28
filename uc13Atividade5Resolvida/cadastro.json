@@ -1,0 +1,24 @@
+{
+  "cadastro": [
+    {
+      "nome": "guilherme",
+      "email": "gui.sadfdsafsda5@gmail.com",
+      "entrada": "",
+      "saida": "",
+      "observacao": "",
+      "adultos": "",
+      "criancas": "",
+      "id": 1
+    },
+    {
+      "nome": "Pedro Denes",
+      "email": "pedrodenes01@gmail.com",
+      "entrada": "2023-10-31",
+      "saida": "2023-11-02",
+      "observacao": "vou levar um cachorro e tres gatos,,, ",
+      "adultos": "2",
+      "criancas": "0",
+      "id": 2
+    }
+  ]
+}

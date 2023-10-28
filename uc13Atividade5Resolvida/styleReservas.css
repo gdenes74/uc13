@@ -1,0 +1,35 @@
+
+html, body {
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+main {
+    flex: 1;
+}  
+  
+  
+  
+  @media screen and (max-width: 400px) {
+    
+  }
+  
+  
+  @media (min-width: 401px) and (max-width: 570px) {
+    
+  }
+  
+  
+  @media (min-width: 571px) and (max-width: 768px) {
+    
+  
+  }
+  
+  
+  @media (min-width: 769px) and (max-width: 992px) {
+    
+  
+  
+  }

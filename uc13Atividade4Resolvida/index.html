@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" href="image/flecha.ico" type="image/x-icon">
+    <title>Residencial Mare Nostrum - Bombinhas</title>
+    <link
+      rel="icon"
+      href="image/logoHotel.png"
+      type="image/x-icon"
+      id="logoIcon"
+    />
+
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Montserrat:wght@300&family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <!-- CSS -->
+    <link type="text/css" rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <header>
+      <nav class="navbar bg-dark" style="height: 80px">
+        <div
+          class="d-flex justify-content-center align-items-center"
+          style="height: 100%"
+        >
+          <a class="navbar-brand mx-auto">
+            <img
+              src="image/logoHotel.png"
+              alt="logo"
+              width="150"
+              height="75"
+            />
+            <span class="text-light" id="title-nav">Residencial Mar e Nostrum</span>
+          </a>
+        </div>
+      </nav>
+    </header>
+    <!-- FIM NAVBAR -->
+
+    <!--CONTAINER-PRINCIPAL-->
+    <div class="container" id="container-principal">
+      <div class="row">
+        <div class="content" id="content-principal">
+          <div class="row justify-content-center align-items-center">
+            <div class="col-sm-12 col-lg-3 col-xl-4" id="content-card">
+              <div class="card" id="saibamais">
+                <div class="card-body" id="cardSaibamais">
+                  <h5 class="card-title-1 fs-3">
+                    Sinta o conforto acolhedor de nossas hospedagens
+                  </h5>
+                  <p class="card-text-1">
+                    Hospede-se nos hotéis com quartos a partir de R$ 100,00
+                  </p>
+                  <a href="#" class="btn btn-success">SAIBA MAIS</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-lg-7 text-center" id="imgBanner">
+              <img
+                src="image/FachadaPrincipal.png"
+                alt=""
+                class="imageFachada"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--FIM CONTAINER-PRINCIPAL-->
+
+    <!-- CONTAINER SECUNDARIO - TITLE -->
+    <div class="container-fluid">
+      <div class="col-12" id="container-title-hospedar">
+        <p class="title-hospedar">POR QUE SE HOSPEDAR EM NOSSOS HOTÉIS?</p>
+      </div>
+    </div>
+    <!-- FIM CONTAINER SECUNDARIO - TITLE -->
+
+    <!-- CONTAINER SECUNDARIO - CAFÉ + LOCALIZAÇÃO -->
+    <div class="container" id="container-secundario">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-4">
+          <div class="row">
+            <div class="col-2">
+              <div class="icon-cafe">
+                <img src="image/icons8-tea-cup-40.png" alt="café" />
+              </div>
+            </div>
+            <div class="col-10">
+              <div class="card-body">
+                <h5 class="card-title" id="cafe-title">
+                  Delicioso café da manhã
+                </h5>
+                <p class="card-text" id="cafe-text">
+                  Incluso em todas as diárias
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="row">
+            <div class="col-2">
+              <div class="icon-cafe">
+                <img src="image/icons8-place-marker-40.png" alt="localização" />
+              </div>
+            </div>
+            <div class="col-10">
+              <div class="card-body">
+                <h5 class="card-title" id="localizacao-title">Fácil acesso</h5>
+                <p class="card-text" id="localizacao-text">
+                  Perto dos principais pontos turísticos
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- FIM CONTAINER SECUNDARIO - CAFÉ + LOCALIZAÇÃO -->
+
+    <!-- CONTAINER TERCIARIO - CARDS -->
+    <div class="container" id="container-terciario">
+      <div>
+        <p class="text-center mt-3" id="quartos-title">
+          NOSSOS QUARTOS DE HOJE
+        </p>
+      </div>
+      <div class="card-group mt-4 justify-content-around" id="card-quartos">
+        <div class="card border-0">
+          <img
+            src="image/QuartoSolteiro.png"
+            class="card-img-top mx-auto"
+            alt="..."
+          />
+          <div class="text-center">
+            <h5 class="card-title" id="suite-solteiro-title">Suite Solteiro</h5>
+          </div>
+        </div>
+        <div class="card border-0">
+          <img
+            src="image/SuiteCasal.png"
+            class="card-img-top mx-auto"
+            alt="..."
+          />
+          <div class="text-center">
+            <h5 class="card-title" id="suite-casal-title">Suite Casal</h5>
+          </div>
+        </div>
+        <div class="card border-0">
+          <img
+            src="image/SuiteMaster.png"
+            class="card-img-top mx-auto"
+            alt="suiteMaster"
+            width=""
+          />
+          <div class="text-center">
+            <h5 class="card-title" id="suite-master-title">Suite Master</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- FIM CONTAINER TERCIARIO - CARDS -->
+    <hr />
+    <!-- CONTAINER QUARTERNARIO -->
+    <div class="container-fluid px-4 d-flex " id="container-quarternario" >
+    
+  
+      <div class="row justify-content-center">
+        <div class="card border-1 px-1" id="card-reserva">
+          <div class="card-body" id="textReserva">
+            <h5 class="card-title" id="reserva-title">FAÇA SUA RESERVA</h5>
+            <p class="card-text mt-4" id="reserva-text">
+              Entre em contato informando as datas desejadas. Lhe retornaremos
+              informando a disponibilidade e repassando detalhes da reserva.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!--CONTAINER-FORM-->
+      <div class="container" id="container-form">
+        <div class="row" id="form">
+          <!--FORMULÁRIO-->
+          <form action="" method="post" id="formulario">
+            <!-- GROUP 1 -->
+            <div class="row d-flex justify-content-center" id="group1">
+              <div class="col-sm-8 col-md-12 col-lg-5">
+                <div class="mb-1">
+                  <label for="inputNome" class="form-label">Nome:</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="inputNome"
+                    aria-describedby="descricaoInputNome"
+                  />
+                </div>
+              </div>
+              <div class="col-sm-8 col-md-12 col-lg-5">
+                <div class="mb-3 mr-3">
+                  <label for="inputEmail" class="form-label">E-mail:</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="inputEmail"
+                    aria-describedby="descricaoInputEmail"
+                  />
+                </div>
+              </div>
+            </div>
+            <!--FIM GROUP 1-->
+
+            <!-- GROUP 2 -->
+            <div class="row d-flex justify-content-center" id="group2">
+              <div class="col-sm-8 col-md-12 col-lg-5">
+                <div class="mb-3">
+                  <label for="inputDateEntrada" class="form-label"
+                    >Data de Entrada:</label
+                  >
+                  <input
+                    type="date"
+                    class="form-control"
+                    id="inputDateEntrada"
+                    aria-describedby="descricaoInputDateEntrada"
+                  />
+                </div>
+              </div>
+              <div class="col-sm-8 col-md-12 col-lg-5">
+                <div class="mb-3">
+                  <label for="inputDateSaida" class="form-label"
+                    >Data de Saída:</label
+                  >
+                  <input
+                    type="date"
+                    class="form-control"
+                    id="inputDateSaida"
+                    aria-describedby="descricaoInputDateSaida"
+                  />
+                </div>
+              </div>
+            </div>
+            <!--FIM GROUP 2-->
+
+            <!-- GROUP 3 -->
+            <div class="row d-flex justify-content-center" id="gruop3">
+              <div class="col-sm-8 col-md-12 col-lg-5">
+                <div class="mb-3 col-5" id="obs">
+                  <label for="" class="form-label">Observação</label>
+                  <textarea
+                    class="form-control"
+                    name=""
+                    id="inputObservacao"
+                    rows="3"
+                  ></textarea>
+                </div>
+              </div>
+              <div class="col-sm-8 col-md-12 col-lg-5">
+                <div class="row">
+                  <label for="inputDateSaida" class="form-label" id="adultos"
+                    >Adultos:</label
+                  >
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="inputAdultos"
+                    aria-describedby="descricaoInputAdultos"
+                  />
+                  <label for="inputDateSaida" class="form-label" id="criancas"
+                    >Crianças:</label
+                  >
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="inputCriancas"
+                    aria-describedby="descricaoInputCriancas"
+                  />
+                </div>
+                <div class="mb-5">
+                  <button
+                    type="button"
+                    class="btn btn-primary btn-lg justify-content-center"
+                    id="bntEnviar"
+                  >
+                    Enviar
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!--FIM GROUP 3-->
+          </form>
+          <!--FIM FORMULÁRIO-->
+        </div>
+      </div>
+      <!--FIM CONTAINER-FORM-->    
+    </div>
+    <!-- FIM CONTAINER QUARTERNARIO -->
+
+    <!-- FOOTER -->
+    <footer class="container-fluid bg-dark d-flex justify-content-center" id="footer-produzido">
+
+      <div class="content-footer" >
+          <p>Todos os direitos reservados ©</p>
+      </div>
+      <div class="content-footer2" >
+        
+    </div>
+    
+    </footer>
+    <!-- FIM FOOTER -->
+        
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

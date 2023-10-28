@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" href="image/flecha.ico" type="image/x-icon">
+    <title>Residencial Mare Nostrum - Bombinhas</title>
+    <link
+      rel="icon"
+      href="image/logoHotel.png"
+      type="image/x-icon"
+      id="logoIcon"
+    />
+
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Montserrat:wght@300&family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <!-- CSS -->
+    <link type="text/css" rel="stylesheet" href="styleReservas.css" />
+    <link type="text/css" rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <header>
+      <nav class="navbar bg-dark" style="height: 80px">
+        <div
+          class="d-flex justify-content-center align-items-center"
+          style="height: 100%"
+        >
+          <a class="navbar-brand mx-auto">
+            <img
+              src="image/logoHotel.png"
+              alt="logo"
+              width="150"
+              height="75"
+            />
+            <span class="text-light" id="title-nav">Sol & Mar Resort</span>
+          </a>
+        </div>
+      </nav>
+    </header>
+    <!-- FIM NAVBAR -->
+    <section class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <a href="index.html"><img src="image/icons8-voltar-48.png" alt="" class="img-fluid" /></a>
+        </div>
+      </div>
+    </section>
+    <!-- TABELA -->
+    <main class="container mt-2" id="container-table">
+      <div class="row">
+        <div class="col-12">
+          <table class="table table-striped table-dark">
+            <thead>
+              <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Email</th>
+                <th scope="col">Data Entrada</th>
+                <th scope="col">Data Saída</th>
+                <th scope="col">Adultos</th>
+                <th scope="col">Crianças</th>
+                <th scope="col">Observação</th>
+              </tr>
+            </thead>
+            <tbody id="dadosTable">
+              
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </main>
+    <!-- FIM TABELA -->
+
+    <!-- FOOTER -->
+    <footer
+      class="container-fluid bg-dark d-flex justify-content-center"
+      id="footer-produzido"
+    >
+      <div class="content-footer">
+        <p>Todos os direitos reservados ©</p>
+     
+    </footer>
+    <!-- FIM FOOTER -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="scriptReservas.js"></script>
+  </body>
+</html>
