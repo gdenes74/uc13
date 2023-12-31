@@ -1,0 +1,11 @@
+.caixaDeTexto {
+    border: 4px solid green;
+    margin: .3em;
+    padding: .5em;
+}
+.caixaDeTexto.azul{
+    border-color: blue;
+}
+.caixaDeTexto.vermelha{
+    border-color: red;
+}

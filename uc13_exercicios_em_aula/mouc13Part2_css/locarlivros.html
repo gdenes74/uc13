@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilizando um site com Nav/links...</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img id="biblioteca_topo" src="img/biblioteca.png"/>
+    <header>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="#">Acervo</a></li>
+                <li><a href="#">Lançamentos</a></li>
+                <li><a href="locarlivros.html">Locação de livros</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Referências</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="conteúdo">
+            <h3>Você está na área de locação</h3>
+            <form >
+                <label>Escolha um livro</label>
+                <select>
+                    <option>O Iluminado</option>
+                    <option>O Segredo</option>
+                    <option>Java 2023</option>
+                    <option>Técnicas de CSS3</option>
+                    <option>Técnicas de HTML5</option>                 
+                </select>    
+                <br>
+                <label>Digite o número da sua inscrição:</label>
+                <input type="text" name="inscrição" placeholder="EX: 123456"/>
+                <br>
+                <label>Você é um aluno:</label>
+                <input type="radio"name= "verifica_aluno" value="Sim" checked/>
+                <input type="radio"name= "verifica_aluno" value="Não" />
+                <button type="submit" id="btn_concluir" >Concluir</button>
+
+            </form>
+        </div> 
+        <div id="aluno">
+            <label>Prazo de devolução</label>
+            <br>
+            <label>Inscrição:</label>
+        </div>      
+
+    </main>
+    
+</body>
+<footer>
+
+
+</footer>
+</html>
